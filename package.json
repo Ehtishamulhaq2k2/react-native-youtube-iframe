@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LonelyCpp/react-native-youtube-iframe.git"
+    "url": "git+https://github.com/Ehtishamulhaq2k2/react-native-youtube-iframe.git"
   },
   "keywords": [
     "react-native",
@@ -31,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/LonelyCpp/react-native-youtube-iframe/issues"
   },
-  "homepage": "https://lonelycpp.github.io/react-native-youtube-iframe/",
+  "homepage": "https://github.com/Ehtishamulhaq2k2/react-native-youtube-iframe#readme",
   "peerDependencies": {
     "react": ">=16.8.6",
     "react-native": ">=0.60",
