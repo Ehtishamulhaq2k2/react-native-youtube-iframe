@@ -15,9 +15,63 @@ A wrapper of the Youtube IFrame player API build for react native.
 
 ![ios](./website/static/img/demo.gif?raw=true 'ios')
 
-## Installation and Documentation
+## Installation
 
-[react-native-youtube-iframe](https://lonelycpp.github.io/react-native-youtube-iframe/)
+### Install from GitHub
+
+```bash
+npm install https://github.com/Ehtishamulhaq2k2/react-native-youtube-iframe.git
+```
+
+Or using yarn:
+
+```bash
+yarn add https://github.com/Ehtishamulhaq2k2/react-native-youtube-iframe.git
+```
+
+### Install Peer Dependencies
+
+The package requires `react-native-webview`:
+
+```bash
+npm install react-native-webview
+# or
+yarn add react-native-webview
+```
+
+For iOS, run pod install:
+
+```bash
+cd ios && pod install
+```
+
+## Quick Start
+
+```jsx
+import React from 'react';
+import {View} from 'react-native';
+import YoutubeIframe from 'react-native-youtube-iframe';
+
+function App() {
+  return (
+    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <YoutubeIframe
+        height={300}
+        width={400}
+        videoId="dQw4w9WgXcQ"
+      />
+    </View>
+  );
+}
+
+export default App;
+```
+
+## Documentation
+
+For detailed usage examples and API documentation, see [USAGE.md](./USAGE.md)
+
+Original documentation: [react-native-youtube-iframe](https://lonelycpp.github.io/react-native-youtube-iframe/)
 
 ## Contributing
 
